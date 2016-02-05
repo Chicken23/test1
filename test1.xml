@@ -1,9 +1,3 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="10" x="18" y="12">
-    <next>
-      <block type="oled_drawtext" id="55">
-        <field name="TEXT">hi vanshika</field>
-      </block>
-    </next>
-  </block>
+  <block type="movement_reverse" id="65" x="79" y="40"></block>
 </xml>
