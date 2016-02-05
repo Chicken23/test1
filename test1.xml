@@ -1,18 +1,14 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="91" x="88" y="39">
+  <block type="movement_reverse" id="101" x="77" y="95">
     <next>
-      <block type="movement_reverse" id="101">
+      <block type="movement_left" id="118">
         <next>
-          <block type="movement_left" id="118">
+          <block type="movement_stutter" id="129">
             <next>
-              <block type="movement_stutter" id="129">
+              <block type="oled_drawtext" id="146">
+                <field name="TEXT">llamas 4 life</field>
                 <next>
-                  <block type="oled_drawtext" id="146">
-                    <field name="TEXT">llamas 4 life</field>
-                    <next>
-                      <block type="movement_stop" id="156"></block>
-                    </next>
-                  </block>
+                  <block type="movement_stop" id="156"></block>
                 </next>
               </block>
             </next>
